@@ -14,6 +14,9 @@ Se realizan varias condiciones para comprobar la existencia de usuario y pass al
     - `css`
     - `model`
     - `views`
+ 
+## Detalles
+Dentro de la carpeta views se encuentra un archivo **error_registro.php** este no se usa en el vídeo ya que lo dejo para que practiquéis vosotros para realizar redirecciones. El css de este archivo ya está incluido en la hoja de *styles.css*, este código y otros  los encontré en [codepen.io](https://codepen.io/)
 
 ### Conclusión
 Es de libre decisión el que cada individuo interactue con el código para mejorarlo o copiarlo.<br>
