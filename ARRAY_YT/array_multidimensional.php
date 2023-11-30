@@ -1,3 +1,4 @@
+<?php 
 /**
  * Este código muestra un ejemplo de un array multidimensional en PHP.
  * El array contiene tres elementos: "frutas", "números" y "colores".
@@ -11,3 +12,15 @@ $array_multidimensional = array(
     "colores" => array("rojo", "verde", "azul")
 );
 print_r($array_multidimensional);
+echo "<hr>";
+foreach ($array_multidimensional as $key => $value) {
+    echo $key. "<br>";
+    foreach ($value as $key2 => $value2) {
+        echo $key2. ": ".$value2."<br>";
+    }
+    
+}
+echo "<hr>";
+echo $array_multidimensional["frutas"][0] . "<br>" . $array_multidimensional["números"][1] . "<br>" . $array_multidimensional["colores"][2];
+
+?>

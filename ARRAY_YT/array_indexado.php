@@ -9,4 +9,10 @@
 
 $array_indexado = array("manzana", "banana", "cereza");
 print_r($array_indexado);
+echo "<hr>";
+echo $array_indexado[0];
+echo "<hr>";
+foreach ($array_indexado as $key => $value) {
+    echo "Índice".$key. ": ".$value."<br>";
+}
 ?>

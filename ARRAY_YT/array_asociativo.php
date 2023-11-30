@@ -11,4 +11,11 @@ $array_asociativo = array(
     "edad" => 30
 );
 print_r($array_asociativo);
+echo "<hr>";
+foreach ($array_asociativo as $key => $value ) {
+    echo $key . $value."<br>";
+}
+echo "<hr>";
+echo $array_asociativo["apellido"];
+
 ?>
